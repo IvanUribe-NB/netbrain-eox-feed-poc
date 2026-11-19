@@ -1,0 +1,173 @@
+{
+  "library_name": "NetBrain EoX Knowledge Library",
+  "schema_version": "1.0",
+  "library_version": "0.2.0",
+  "vendor": "Cisco",
+  "generated_on": "2026-11-19",
+  "publication_status": "approved",
+  "records": [
+    {
+      "pid": "WS-C2960X-24TD-L",
+      "matched_pid": "WS-C2960X-24TD-L",
+      "product_name": "Catalyst 2960-X 24 GigE, 2 x 10G SFP+, LAN Base",
+      "match_confidence": "exact",
+      "verification_status": "verified",
+      "announcement_date": "2020-10-31",
+      "end_of_sale": "2022-10-31",
+      "end_of_sw_maintenance": "2023-10-31",
+      "end_of_security_support": "2027-10-31",
+      "last_date_of_support": "2027-10-31",
+      "replacement_product": "C9200L-24T-4X",
+      "source_bulletin_id": "EOL13603",
+      "source_url": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-2960-x-series-switches/eos-eol-notice-c51-744432.html",
+      "source_document_updated": "2022-11-26",
+      "research_date": "2026-11-19",
+      "evidence": {
+        "pid_listing": "EOL13603 Table 2 exact affected-product row for WS-C2960X-24TD-L",
+        "milestone_dates": "EOL13603 Table 1 hardware milestone dates",
+        "replacement": "EOL13603 Table 2 replacement SKU for WS-C2960X-24TD-L"
+      },
+      "review_notes": "Exact Cisco hardware PID and lifecycle milestones cross-checked against the cited manufacturer bulletin for internal POC use."
+    },
+    {
+      "pid": "WS-C2960X-48FPD-L",
+      "matched_pid": "WS-C2960X-48FPD-L",
+      "product_name": "Catalyst 2960-X 48 GigE PoE 740W, 2 x 10G SFP+, LAN Base",
+      "match_confidence": "exact",
+      "verification_status": "verified",
+      "announcement_date": "2020-10-31",
+      "end_of_sale": "2022-10-31",
+      "end_of_sw_maintenance": "2023-10-31",
+      "end_of_security_support": "2027-10-31",
+      "last_date_of_support": "2027-10-31",
+      "replacement_product": "C9200L-48P-4X",
+      "source_bulletin_id": "EOL13603",
+      "source_url": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-2960-x-series-switches/eos-eol-notice-c51-744432.html",
+      "source_document_updated": "2022-11-26",
+      "research_date": "2026-11-19",
+      "evidence": {
+        "pid_listing": "EOL13603 Table 2 exact affected-product row for WS-C2960X-48FPD-L",
+        "milestone_dates": "EOL13603 Table 1 hardware milestone dates",
+        "replacement": "EOL13603 Table 2 replacement SKU for WS-C2960X-48FPD-L"
+      },
+      "review_notes": "Exact Cisco hardware PID and lifecycle milestones cross-checked against the cited manufacturer bulletin for internal POC use."
+    },
+    {
+      "pid": "WS-C2960X-48TD-L",
+      "matched_pid": "WS-C2960X-48TD-L",
+      "product_name": "Catalyst 2960-X 48 GigE, 2 x 10G SFP+, LAN Base",
+      "match_confidence": "exact",
+      "verification_status": "verified",
+      "announcement_date": "2020-10-31",
+      "end_of_sale": "2022-10-31",
+      "end_of_sw_maintenance": "2023-10-31",
+      "end_of_security_support": "2027-10-31",
+      "last_date_of_support": "2027-10-31",
+      "replacement_product": "C9200L-48T-4X",
+      "source_bulletin_id": "EOL13603",
+      "source_url": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-2960-x-series-switches/eos-eol-notice-c51-744432.html",
+      "source_document_updated": "2022-11-26",
+      "research_date": "2026-11-19",
+      "evidence": {
+        "pid_listing": "EOL13603 Table 2 exact affected-product row for WS-C2960X-48TD-L",
+        "milestone_dates": "EOL13603 Table 1 hardware milestone dates",
+        "replacement": "EOL13603 Table 2 replacement SKU for WS-C2960X-48TD-L"
+      },
+      "review_notes": "Exact Cisco hardware PID and lifecycle milestones cross-checked against the cited manufacturer bulletin for internal POC use."
+    },
+    {
+      "pid": "WS-C2960XR-48FPD-I",
+      "matched_pid": "WS-C2960XR-48FPD-I",
+      "product_name": "Catalyst 2960-XR 48 GigE PoE 740W, 2 x 10G SFP+, IP Lite",
+      "match_confidence": "exact",
+      "verification_status": "verified",
+      "announcement_date": "2020-10-31",
+      "end_of_sale": "2022-10-31",
+      "end_of_sw_maintenance": "2023-10-31",
+      "end_of_security_support": "2027-10-31",
+      "last_date_of_support": "2027-10-31",
+      "replacement_product": "C9200-48P",
+      "source_bulletin_id": "EOL13602",
+      "source_url": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-2960-xr-series-switches/eos-eol-notice-c51-744422.html",
+      "source_document_updated": "2025-07-31",
+      "research_date": "2026-11-19",
+      "evidence": {
+        "pid_listing": "EOL13602 Table 2 exact affected-product row for WS-C2960XR-48FPD-I",
+        "milestone_dates": "EOL13602 Table 1 hardware milestone dates",
+        "replacement": "EOL13602 Table 2 replacement SKU for WS-C2960XR-48FPD-I"
+      },
+      "review_notes": "Exact Cisco hardware PID and lifecycle milestones cross-checked against the cited manufacturer bulletin for internal POC use."
+    },
+    {
+      "pid": "WS-C2960XR-48TD-I",
+      "matched_pid": "WS-C2960XR-48TD-I",
+      "product_name": "Catalyst 2960-XR 48 GigE, 2 x 10G SFP+, IP Lite",
+      "match_confidence": "exact",
+      "verification_status": "verified",
+      "announcement_date": "2020-10-31",
+      "end_of_sale": "2022-10-31",
+      "end_of_sw_maintenance": "2023-10-31",
+      "end_of_security_support": "2027-10-31",
+      "last_date_of_support": "2027-10-31",
+      "replacement_product": "C9200-48T",
+      "source_bulletin_id": "EOL13602",
+      "source_url": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-2960-xr-series-switches/eos-eol-notice-c51-744422.html",
+      "source_document_updated": "2025-07-31",
+      "research_date": "2026-11-19",
+      "evidence": {
+        "pid_listing": "EOL13602 Table 2 exact affected-product row for WS-C2960XR-48TD-I",
+        "milestone_dates": "EOL13602 Table 1 hardware milestone dates",
+        "replacement": "EOL13602 Table 2 replacement SKU for WS-C2960XR-48TD-I"
+      },
+      "review_notes": "Exact Cisco hardware PID and lifecycle milestones cross-checked against the cited manufacturer bulletin for internal POC use."
+    },
+    {
+      "pid": "WS-C3850-48P",
+      "matched_pid": "WS-C3850-48P-E",
+      "product_name": "Catalyst 3850 48-port PoE; inventory PID omits license suffix",
+      "match_confidence": "family",
+      "verification_status": "needs_review",
+      "announcement_date": null,
+      "end_of_sale": null,
+      "end_of_sw_maintenance": null,
+      "end_of_security_support": null,
+      "last_date_of_support": null,
+      "replacement_product": null,
+      "source_bulletin_id": "EOL13188",
+      "source_url": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3850-series-switches/eos-eol-notice-c51-743072.pdf",
+      "source_document_updated": null,
+      "research_date": "2026-11-19",
+      "evidence": {
+        "pid_listing": "Exact inventory PID WS-C3850-48P not confirmed in affected product SKU list of EOL13188",
+        "milestone_dates": "Withheld until hardware SKU can be verified",
+        "replacement": "Withheld; possible product is not a verified exact match"
+      },
+      "review_notes": "Cisco bulletin lists multiple distinct WS-C3850-48P-* SKUs, including -E, -L, -S. Inventory model does not distinguish them. Require show inventory/physical PID lookup before applying dates."
+    },
+    {
+      "pid": "WS-C4500X-32",
+      "matched_pid": "WS-C4500X-32SFP+",
+      "product_name": "Catalyst 4500-X 32-port model; discovered PID abbreviated",
+      "match_confidence": "prefix",
+      "verification_status": "needs_review",
+      "announcement_date": null,
+      "end_of_sale": null,
+      "end_of_sw_maintenance": null,
+      "end_of_security_support": null,
+      "last_date_of_support": null,
+      "replacement_product": null,
+      "source_bulletin_id": "EOL13216",
+      "source_url": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-x-series-switches/eos-eol-notice-c51-743098.pdf",
+      "source_document_updated": null,
+      "research_date": "2026-11-19",
+      "evidence": {
+        "pid_listing": "Exact inventory PID WS-C4500X-32 not confirmed in affected product SKU list of EOL13216",
+        "milestone_dates": "Withheld until hardware SKU can be verified",
+        "replacement": "Withheld; possible product is not a verified exact match"
+      },
+      "review_notes": "Cisco bulletin lists full 32SFP+ SKUs. Inventory string WS-C4500X-32 does not identify exact front/back airflow, license/bundle or SKU. Require show inventory/physical PID lookup before applying dates."
+    }
+  ],
+  "release_type": "internal_poc",
+  "approval_scope": "Approved for internal demonstration; not a commercial redistribution authorization"
+}

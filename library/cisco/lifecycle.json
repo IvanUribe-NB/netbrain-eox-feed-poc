@@ -1,7 +1,7 @@
 {
   "library_name": "NetBrain EoX Knowledge Library",
   "schema_version": "1.0",
-  "library_version": "0.2.0",
+  "library_version": "0.3.0",
   "vendor": "Cisco",
   "generated_on": "2026-11-19",
   "publication_status": "approved",
@@ -140,9 +140,12 @@
       "evidence": {
         "pid_listing": "Exact inventory PID WS-C3850-48P not confirmed in affected product SKU list of EOL13188",
         "milestone_dates": "Withheld until hardware SKU can be verified",
-        "replacement": "Withheld; possible product is not a verified exact match"
+        "replacement": "Withheld; possible product is not a verified exact match",
+        "manufacturer_family_support_date": "Cisco Catalyst 3850 Series official support page lists 3850-48P-E, -L and -S with End of Support 2025-10-31. This family evidence is not an exact match to the inventory string without the license suffix.",
+        "family_last_date_of_support": "2025-10-31 (informational only; not assigned to this unverified PID)",
+        "family_source_url": "https://www.cisco.com/c/en/us/support/switches/catalyst-3850-series-switches/series.html"
       },
-      "review_notes": "Cisco bulletin lists multiple distinct WS-C3850-48P-* SKUs, including -E, -L, -S. Inventory model does not distinguish them. Require show inventory/physical PID lookup before applying dates."
+      "review_notes": "Manufacturer confirms 3850-48P-E/-L/-S hardware support ended 2025-10-31, but discovered PID lacks exact license SKU. Retain needs_review with lifecycle date fields null until physical PID from show inventory is verified."
     },
     {
       "pid": "WS-C4500X-32",
@@ -163,11 +166,14 @@
       "evidence": {
         "pid_listing": "Exact inventory PID WS-C4500X-32 not confirmed in affected product SKU list of EOL13216",
         "milestone_dates": "Withheld until hardware SKU can be verified",
-        "replacement": "Withheld; possible product is not a verified exact match"
+        "replacement": "Withheld; possible product is not a verified exact match",
+        "manufacturer_family_support_date": "Cisco Catalyst 4500-X official support page lists the 32 SFP+ and F-32 SFP+ models with End of Support 2025-10-31; the inventory model omits full product identifier.",
+        "family_last_date_of_support": "2025-10-31 (informational only; not assigned to this unverified PID)",
+        "family_source_url": "https://www.cisco.com/c/en/us/support/switches/catalyst-4500-x-series-switches/series.html"
       },
-      "review_notes": "Cisco bulletin lists full 32SFP+ SKUs. Inventory string WS-C4500X-32 does not identify exact front/back airflow, license/bundle or SKU. Require show inventory/physical PID lookup before applying dates."
+      "review_notes": "Cisco confirms 4500-X 32-SFP+ family support ended 2025-10-31, but WS-C4500X-32 is abbreviated. Need exact physical SKU for verified model match and replacement; hold all lifecycle fields null."
     }
   ],
   "release_type": "internal_poc",
-  "approval_scope": "Approved for internal demonstration; not a commercial redistribution authorization"
+  "approval_scope": "Approved for internal POC demonstration only; manufacturer family lifecycle evidence is not proof of exact abbreviated SKU; not commercial redistribution authorization"
 }

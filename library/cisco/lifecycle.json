@@ -149,29 +149,28 @@
     },
     {
       "pid": "WS-C4500X-32",
-      "matched_pid": "WS-C4500X-32SFP+",
-      "product_name": "Catalyst 4500-X 32-port model; discovered PID abbreviated",
-      "match_confidence": "prefix",
+      "matched_pid": null,
+      "product_name": "Catalyst 4500-X 32-port hardware-reported PID",
+      "match_confidence": "family",
       "verification_status": "needs_review",
-      "announcement_date": null,
-      "end_of_sale": null,
-      "end_of_sw_maintenance": null,
-      "end_of_security_support": null,
-      "last_date_of_support": null,
+      "announcement_date": "2019-10-31",
+      "end_of_sale": "2020-10-30",
+      "end_of_sw_maintenance": "2021-10-30",
+      "end_of_security_support": "2025-10-31",
+      "last_date_of_support": "2025-10-31",
       "replacement_product": null,
       "source_bulletin_id": "EOL13216",
       "source_url": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-x-series-switches/eos-eol-notice-c51-743098.pdf",
       "source_document_updated": null,
       "research_date": "2026-11-19",
       "evidence": {
-        "pid_listing": "Exact inventory PID WS-C4500X-32 not confirmed in affected product SKU list of EOL13216",
-        "milestone_dates": "Withheld until hardware SKU can be verified",
-        "replacement": "Withheld; possible product is not a verified exact match",
-        "manufacturer_family_support_date": "Cisco Catalyst 4500-X official support page lists the 32 SFP+ and F-32 SFP+ models with End of Support 2025-10-31; the inventory model omits full product identifier.",
-        "family_last_date_of_support": "2025-10-31 (informational only; not assigned to this unverified PID)",
-        "family_source_url": "https://www.cisco.com/c/en/us/support/switches/catalyst-4500-x-series-switches/series.html"
+        "pid_listing": "User reports WS-C4500X-32 in show version and show inventory. Cisco bulletin lists 32-port ordering SKUs WS-C4500X-32SFP+ and WS-C4500X-F-32SFP+, not the reported physical PID.",
+        "milestone_dates": "EOL13216 Table 1 hardware dates apply to both listed 32-port ordering variants; application to this physical PID is a family-based inference.",
+        "replacement": "EOL13216 lists C9500-48Y4C for WS-C4500X-32SFP+ and no replacement for WS-C4500X-F-32SFP+; ordering variant is unconfirmed.",
+        "family_source_url": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4500-x-series-switches/data_sheet_c78-696791.html",
+        "corroborating_inventory_url": "https://community.cisco.com/t5/switching/fail-module-after-update-rommon/td-p/3795873"
       },
-      "review_notes": "Cisco confirms 4500-X 32-SFP+ family support ended 2025-10-31, but WS-C4500X-32 is abbreviated. Need exact physical SKU for verified model match and replacement; hold all lifecycle fields null."
+      "review_notes": "Dates are proposed as high-confidence 4500-X 32-port family evidence, not an exact manufacturer PID match. Confirm the ordering SKU or Cisco TAC mapping and airflow variant before marking verified or assigning a replacement."
     }
   ],
   "release_type": "internal_poc",

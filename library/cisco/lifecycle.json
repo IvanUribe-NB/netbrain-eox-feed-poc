@@ -127,6 +127,7 @@
       "product_name": "Catalyst 3850 48-port PoE; inventory reports base hardware PID",
       "match_confidence": "family",
       "verification_status": "verified",
+      "verification_method": "manufacturer_family",
       "family_lifecycle_approved": true,
       "announcement_date": "2019-10-31",
       "end_of_sale": "2020-10-30",
